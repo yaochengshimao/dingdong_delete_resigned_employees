@@ -38,6 +38,7 @@ def delete_resigned_employees(id, cookie, url):
 
 if __name__ == "__main__":
     url = "http://login.100.me/"
+    # url = "http://login.ddxq.mobi/"
     username = "manager"
     password = "!qaz@wsx#edc"
     cookie = login(url, password, username)
